@@ -1,0 +1,9 @@
+****ajouter la dépendance suivante dans la fichier pom.xml
+**** <systemPath>{chemin du jar}/partition-0.0.1-SNAPSHOT.jar</systemPath>
+ <dependency>
+    <groupId>com.adneom.app</groupId>
+    <artifactId>partition</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <scope>system</scope>
+    <systemPath>partition-0.0.1-SNAPSHOT.jar</systemPath>
+</dependency>
